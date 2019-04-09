@@ -1,10 +1,9 @@
 let resumeData = {
-  // "imagebaseurl":"https://techonoeticsclub.github.io/",
   "name": "Emit De La Rosa",
-  "role": "Frontend Developer",
+  "role": "Full Stack Developer",
   "linkedinId":"https://www.linkedin.com/in/emit-de-la-rosa-b732965/",
   "skypeid": "Your skypeid",
-  "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+  "roleDescription": "Full Stack Developer",
   "socialLinks":[
       {
         "name":"linkedin",
@@ -22,7 +21,7 @@ let resumeData = {
         "className":"fa fa-skype"
       }
     ],
-  "aboutme":"B.A graduate from the University of Texas at Austin in Liberal Arts. After 15 years in Finance, I have changed careers and now am a Full Stack Developer.",
+  "aboutme":"B.A graduate from the University of Texas at Austin in Liberal Arts. After 15 years in Finance, I have changed careers and now am a Full Stack Developer and studying cybersecurity.",
   "address":"Austin, Texas",
   "website":"http://www.emitdelarosa.com",
   "education":[
