@@ -3,7 +3,7 @@ let resumeData = {
   "role": "Full Stack Developer",
   "linkedinId":"https://www.linkedin.com/in/emit-de-la-rosa-b732965/",
   "skypeid": "Your skypeid",
-  "roleDescription": "Full Stack Developer",
+  "roleDescription": "Designer",
   "socialLinks":[
       {
         "name":"linkedin",
@@ -27,7 +27,7 @@ let resumeData = {
   "education":[
     {
       "UniversityName":"University of Texas at Austin CPE",
-      "specialization":"Full Stack Deverlopment certification",
+      "specialization":"Full Stack Development certification",
       "MonthOfPassing":"July",
       "YearOfPassing":"2018",
       // "Achievements":"Some Achievements"
@@ -42,20 +42,52 @@ let resumeData = {
   ],
   "work":[
     {
+      "CompanyName":"FramedinAustin Photography LLC",
+      "specialization":"Owner - Photographer",
+      "MonthOfStarting": "December",
+      "YearOfStarting":"2014",
+      "MonthOfLeaving":"Present",
+      // "YearOfLeaving":"2017",
+      // "Achievements":"Some Achievements"
+    },
+    {
       "CompanyName":"Sunpower",
       "specialization":"Compliance and Treasury Analyst",
+      "MonthOfStarting": "September",
+      "YearOfStarting":"2015",
       "MonthOfLeaving":"July",
       "YearOfLeaving":"2017",
       // "Achievements":"Some Achievements"
     },
     {
       "CompanyName":"Dell Financial Services",
-      "specialization":"Some specialization",
-      "MonthOfLeaving":"Jan",
-      "YearOfLeaving":"2018",
-      "Achievements":"Some Achievements",
-      "Achievements":"Some Achievements"
+      "specialization":"Financial Analyst (Lifecycle Manager)",
+      "MonthOfStarting": "September",
+      "YearOfStarting":"2011",
+      "MonthOfLeaving":"July",
+      "YearOfLeaving":"2014",
+      // "Achievements":"Some Achievements",
+      // "Achievements":"Some Achievements"
+    },
+    {
+      // "CompanyName":"Sunpower",
+      "specialization":"End of Lease Sr. Business Analyst",
+      "MonthOfStarting": "August",
+      "YearOfStarting":"2007",
+      "MonthOfLeaving":"September",
+      "YearOfLeaving":"2011",
+      // "Achievements":"Some Achievements"
+    },
+    {
+      // "CompanyName":"FramedinAustin Photography LLC",
+      "specialization":"End of Lease Team Lead",
+      "MonthOfStarting": "August",
+      "YearOfStarting":"2006",
+      "MonthOfLeaving":"August",
+      "YearOfLeaving":"2007",
+      // "Achievements":"Some Achievements"
     }
+    
   ],
   // "skillsDescription":"Your skills here",
   "skills":[
@@ -64,20 +96,29 @@ let resumeData = {
     },
     {
       "skillname":"CSS"
+    },    
+    {
+      "skillname":"javascript"
     },
     {
       "skillname":"Reactjs"
+    },
+    {
+      "skillname":"Wordpress"
+    },
+    {
+      "skillname":"PHP"
     }
   ],
   "portfolio":[
     {
       "name":"project1",
-      "description":"mobileapp",
+      "description":"Updating Soon",
       "imgurl":"images/portfolio/phone.jpg"
     },
     {
       "name":"project2",
-      "description":"mobileapp",
+      "description":"Updating Soon",
       "imgurl":"images/portfolio/project.jpg"
     },
     {
@@ -87,20 +128,20 @@ let resumeData = {
     },
     {
       "name":"project4",
-      "description":"mobileapp",
+      "description":"Updating Soon",
       "imgurl":"images/portfolio/phone.jpg"
     }
   ],
-  "testimonials":[
-    {
-      "description":"This is a sample testimonial",
-      "name":"Some technical guy"
-    },
-    {
-      "description":"This is a sample testimonial",
-      "name":"Some technical guy"
-    }
-  ]
+  // "testimonials":[
+  //   {
+  //     "description":"This is a sample testimonial",
+  //     "name":"Some technical guy"
+  //   },
+  //   {
+  //     "description":"This is a sample testimonial",
+  //     "name":"Some technical guy"
+  //   }
+  // ]
 }
 
 export default resumeData

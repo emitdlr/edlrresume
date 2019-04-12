@@ -14,7 +14,6 @@ export default class Header extends Component {
                <li><a className="smoothscroll" href="#about">About</a></li>
              <li><a className="smoothscroll" href="#resume">Resume</a></li>
                <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-               <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
             </ul>
          </nav>
@@ -23,6 +22,7 @@ export default class Header extends Component {
             <div className="banner-text">
                <h1 className="responsive-headline">{resumeData.name}</h1>
                <h3>{resumeData.role}</h3>
+              <h2>and</h2>
                 <h3>{resumeData.roleDescription}</h3>
                <hr/>
                <ul className="social">
