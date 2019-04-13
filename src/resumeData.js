@@ -104,10 +104,13 @@ let resumeData = {
       "skillname":"Reactjs"
     },
     {
-      "skillname":"Wordpress"
+      "skillname":"angular"
     },
     {
       "skillname":"PHP"
+    },
+    {
+      "skillname":"Wordpress"
     }
   ],
   "portfolio":[
