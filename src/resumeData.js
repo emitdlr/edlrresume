@@ -2,7 +2,7 @@ let resumeData = {
   "name": "Emit De La Rosa",
   "role": "Full Stack Developer",
   "linkedinId":"https://www.linkedin.com/in/emit-de-la-rosa-b732965/",
-  "skypeid": "Your skypeid",
+  "skypeid": "emitdlr",
   "roleDescription": "Designer",
   "socialLinks":[
       {
@@ -115,9 +115,9 @@ let resumeData = {
   ],
   "portfolio":[
     {
-      "name":"project1",
-      "description":"Updating Soon",
-      "imgurl":"images/portfolio/phone.jpg"
+      "name":"Crystals of Thanos",
+      "description":"Simple numbers guessing game using javascript",
+      "imgurl":"images/portfolio/crystals.jpg"
     },
     {
       "name":"project2",
