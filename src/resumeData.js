@@ -1,13 +1,13 @@
 let resumeData = {
   "name": "Emit De La Rosa",
   "role": "Full Stack Developer",
-  "linkedinId":"https://www.linkedin.com/in/emit-de-la-rosa-b732965/",
+  "linkedinId":"https://www.linkedin.com/in/emitdelarosa/",
   "skypeid": "emitdlr",
   "roleDescription": "Designer",
   "socialLinks":[
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/emit-de-la-rosa-b732965/",
+        "url":"https://www.linkedin.com/in/emitdelarosa/",
         "className":"fa fa-linkedin"
       },
       {
