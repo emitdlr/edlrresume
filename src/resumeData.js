@@ -48,7 +48,7 @@ let resumeData = {
       "YearOfStarting":"2020",
       "MonthOfLeaving":"November",
       "YearOfLeaving":"2020",
-      // "Achievements":"Some Achievements"
+      "Achievements":"Technologies Used: Angular 9/Nova UI/Kubernetes/Jira/Confluence"
     },
     {
       "CompanyName":"TCS Partners",
@@ -57,7 +57,7 @@ let resumeData = {
       "YearOfStarting":"2019",
       "MonthOfLeaving":"December",
       "YearOfLeaving":"2019",
-      // "Achievements":"Some Achievements"
+      "Achievements":"Technologies Used: WordPress/PHP customization/CSS customization"
     },
     {
       "CompanyName":"RentLoop (Remote)",
@@ -66,7 +66,7 @@ let resumeData = {
       "YearOfStarting":"2019",
       "MonthOfLeaving":"May",
       "YearOfLeaving":"2019",
-      // "Achievements":"Some Achievements"
+      "Achievements":"Technologies Used: Angular 7/Material UI/Google Maps API"
     },
     {
       "CompanyName":"Sunpower",
