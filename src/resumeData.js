@@ -75,7 +75,7 @@ let resumeData = {
       "YearOfStarting":"2015",
       "MonthOfLeaving":"July",
       "YearOfLeaving":"2017",
-      // "Achievements":"Some Achievements"
+      // "Achievements":"Some Ach"
     },
     {
       "CompanyName":"Dell Financial Services",
