@@ -42,12 +42,30 @@ let resumeData = {
   ],
   "work":[
     {
-      "CompanyName":"FramedinAustin Photography LLC",
-      "specialization":"Owner - Photographer",
-      "MonthOfStarting": "December",
-      "YearOfStarting":"2014",
-      "MonthOfLeaving":"Present",
-      // "YearOfLeaving":"2017",
+      "CompanyName":"SolarWinds",
+      "specialization":"Software Developer",
+      "MonthOfStarting": "July",
+      "YearOfStarting":"2020",
+      "MonthOfLeaving":"November",
+      "YearOfLeaving":"2020",
+      // "Achievements":"Some Achievements"
+    },
+    {
+      "CompanyName":"TCS Partners",
+      "specialization":"Web Developer - Contract",
+      "MonthOfStarting": "October",
+      "YearOfStarting":"2019",
+      "MonthOfLeaving":"December",
+      "YearOfLeaving":"2019",
+      // "Achievements":"Some Achievements"
+    },
+    {
+      "CompanyName":"RentLoop (Remote)",
+      "specialization":"Full Stack Developer",
+      "MonthOfStarting": "March",
+      "YearOfStarting":"2019",
+      "MonthOfLeaving":"May",
+      "YearOfLeaving":"2019",
       // "Achievements":"Some Achievements"
     },
     {
@@ -64,27 +82,8 @@ let resumeData = {
       "specialization":"Financial Analyst (Lifecycle Manager)",
       "MonthOfStarting": "September",
       "YearOfStarting":"2011",
-      "MonthOfLeaving":"July",
-      "YearOfLeaving":"2014",
-      // "Achievements":"Some Achievements",
-      // "Achievements":"Some Achievements"
-    },
-    {
-      // "CompanyName":"Sunpower",
-      "specialization":"End of Lease Sr. Business Analyst",
-      "MonthOfStarting": "August",
-      "YearOfStarting":"2007",
       "MonthOfLeaving":"September",
-      "YearOfLeaving":"2011",
-      // "Achievements":"Some Achievements"
-    },
-    {
-      // "CompanyName":"FramedinAustin Photography LLC",
-      "specialization":"End of Lease Team Lead",
-      "MonthOfStarting": "August",
-      "YearOfStarting":"2006",
-      "MonthOfLeaving":"August",
-      "YearOfLeaving":"2007",
+      "YearOfLeaving":"2014",
       // "Achievements":"Some Achievements"
     }
     
