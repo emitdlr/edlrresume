@@ -23,7 +23,8 @@ let resumeData = {
     ],
   "aboutme":"B.A graduate from the University of Texas at Austin in Liberal Arts. After 15 years in Finance, I have changed careers and now am a Full Stack Developer and studying cybersecurity.",
   "address":"Austin, Texas",
-  "website":"http://www.emitdelarosa.com",
+  "website1":"http://www.emitdelarosa.com",
+  "website2":"http://www.framedinaustin.com",
   "education":[
     {
       "UniversityName":"University of Texas at Austin CPE",
