@@ -35,7 +35,7 @@ export default class About extends Component {
                     <br></br>
                     <span>{resumeData.website1}</span>
                     <br></br>
-                    <span>{resumeData.website2 }</span>
+                    <a target="_blank" href="http://www.framedinaustin.com">http://www.framedinaustin.com</a>
        					   </p>
                   </div>
                </div>

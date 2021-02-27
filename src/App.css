@@ -1,41 +1,7 @@
-/*
-=====================================================================
-*   Ceevee v1.0 Default Stylesheet
-*   url: styleshout.com
-*   03-17-2014
-=====================================================================
-
-TOC:
-a. Webfonts and Icon fonts
-b. Reset
-c. Default Styles
-   1. Basic
-   2. Typography
-   3. Links
-   4. Images
-   5. Buttons
-   6. Forms
-d. Grid
-e. Others
-   1. Clearing
-   2. Misc
-
-=====================================================================  */
-
-/* ------------------------------------------------------------------ */
-/* a. Webfonts and Icon fonts
- ------------------------------------------------------------------ */
-
 @import url("fonts.css");
 @import url("fontello/css/fontello.css");
 @import url("font-awesome/css/font-awesome.min.css");
 
-/* ------------------------------------------------------------------
-/* b. Reset
-      Adapted from:
-      Normalize.css - https://github.com/necolas/normalize.css/
-      HTML5 Doctor Reset - html5doctor.com/html-5-reset-stylesheet/
-/* ------------------------------------------------------------------ */
 
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -87,7 +53,6 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -118,16 +83,6 @@ table {
    border-spacing: 0;
 }
 
-
-/* ------------------------------------------------------------------ */
-/* c. Default and Basic Styles
-      Adapted from:
-      Skeleton CSS Framework - http://www.getskeleton.com/
-      Typeplate Typographic Starter Kit - http://typeplate.com/
-/* ------------------------------------------------------------------ */
-
-/*  1. Basic  ------------------------------------------------------- */
-
 *,
 *:before,
 *:after {
@@ -153,9 +108,7 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
-/*  2. Typography
-       Vertical rhythm with leading derived from 6
---------------------------------------------------------------------- */
+
 
 h1, h2, h3, h4, h5, h6 {
    color: #313131;
@@ -178,8 +131,10 @@ p.lead {
    margin-bottom: 18px;
 }
 
-/* for 'em' and 'strong' tags, font-size and line-height should be same with
-the body tag due to rendering problems in some browsers */
+a {
+   color: #8B9798;
+}
+
 em { font: 15px/30px 'opensans-italic', sans-serif; }
 strong, b { font: 15px/30px 'opensans-bold', sans-serif; }
 small { font-size: 11px; line-height: inherit; }
@@ -218,16 +173,7 @@ blockquote cite:before { content: "\2014 \0020"; }
 blockquote cite a,
 blockquote cite a:visited { color: #8B9798; border: none }
 
-/* ---------------------------------------------------------------------
-/*  Pull Quotes Markup
-/*
-    <aside class="pull-quote">
-		<blockquote>
-			<p></p>
-		</blockquote>
-	 </aside>
-/*
-/* --------------------------------------------------------------------- */
+
 .pull-quote {
    position: relative;
 	padding: 18px 30px 18px 0px;
@@ -283,7 +229,8 @@ abbr:hover { cursor: help; }
 hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 30px; height: 0; }
 
 
-/*  3. Links  ------------------------------------------------------- */
+/* links */
+
 
 a, a:visited {
    text-decoration: none;
@@ -298,8 +245,6 @@ a, a:visited {
 a:hover, a:focus { color: #313131; }
 p a, p a:visited { line-height: inherit; }
 
-
-/*  4. List  --------------------------------------------------------- */
 
 ul, ol { margin-bottom: 24px; margin-top: 12px; }
 ul { list-style: none outside; }
@@ -316,16 +261,7 @@ li { line-height: 18px; margin-bottom: 12px; }
 ul.large li { }
 li p { }
 
-/* ---------------------------------------------------------------------
-/*  Stats Tab Markup
 
-    <ul class="stats-tabs">
-		<li><a href="#">[value]<b>[name]</b></a></li>
-	 </ul>
-
-    Extend this object into your markup.
-/*
-/* --------------------------------------------------------------------- */
 .stats-tabs {
    padding: 0;
    margin: 24px 0;
@@ -364,7 +300,7 @@ dl { margin: 12px 0; }
 dt { margin: 0; color:#11ABB0; }
 dd { margin: 0 0 0 20px; }
 
-/* Lining Definition Style Markup */
+
 .lining dt,
 .lining dd {
 	display: inline;
@@ -383,7 +319,7 @@ dd { margin: 0 0 0 20px; }
 	margin-left: -0.2em;
 }
 
-/* Dictionary Definition Style Markup */
+
 .dictionary-style dt {
 	display: inline;
 	counter-reset: definitions;
@@ -400,7 +336,7 @@ dd { margin: 0 0 0 20px; }
 	content: counter(definitions, decimal) ". ";
 }
 
-/* Pagination */
+
 .pagination {
    margin: 36px auto;
    text-align: center;
@@ -446,7 +382,7 @@ dd { margin: 0 0 0 20px; }
 }
 .pagination .prev, .pagination .next {}
 
-/*  5. Images  --------------------------------------------------------- */
+
 
 img {
    max-width: 100%;
@@ -455,7 +391,6 @@ img {
 img.pull-right { margin: 12px 0px 0px 18px; }
 img.pull-left { margin: 12px 18px 0px 0px; }
 
-/*  6. Buttons  --------------------------------------------------------- */
 
 .button,
 .button:visited,
@@ -584,14 +519,7 @@ input[type="radio"] {
 
 input[type="checkbox"] { display: inline; }
 
-/* ------------------------------------------------------------------ */
-/* d. Grid
----------------------------------------------------------------------
-   gutter = 40px.
-/* ------------------------------------------------------------------ */
 
-/* default
---------------------------------------------------------------- */
 .row {
    width: 96%;
    max-width: 1020px;
@@ -693,15 +621,11 @@ input[type="checkbox"] { display: inline; }
 
 [class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: left; }
 
-/* Left clearing for block grid columns - columns that changes width in
-different screen sizes. Allows columns with different heights to align
-properly.
---------------------------------------------------------------------- */
+
 .first { clear: left; }   /* first column in default screen */
 .s-first { clear: none; } /* first column in smaller screens */
 
-/* smaller screens
---------------------------------------------------------------- */
+
 @media only screen and (max-width: 900px) {
 
    /* block grids on small screens */
@@ -716,8 +640,8 @@ properly.
 
 }
 
-/* mobile wide/smaller tablets
---------------------------------------------------------------- */
+/* mobile wide/smaller tablets  */
+
 @media only screen and (max-width: 767px) {
 
    .row {

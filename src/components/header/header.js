@@ -13,7 +13,7 @@ export default class Header extends Component {
                <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                <li><a className="smoothscroll" href="#about">About</a></li>
              <li><a className="smoothscroll" href="#resume">Resume</a></li>
-               <li><a className="smoothscroll" href="#portfolio">Works</a></li>
+               <li><a className="smoothscroll" href="#portfolio">Portfolio</a></li>
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
             </ul>
          </nav>
@@ -21,9 +21,12 @@ export default class Header extends Component {
          <div className="row banner">
             <div className="banner-text">
                <h1>Emit De La Rosa</h1>
-               <h3>{resumeData.role}</h3>
+               <br></br>
+               <h2>{resumeData.role}</h2>
+               <br></br>
               <h2>and</h2>
-                <h3>{resumeData.roleDescription}</h3>
+              <br></br>
+                <h2>{resumeData.roleDescription}</h2>
                <hr/>
                <ul className="social">
                   {

@@ -3,7 +3,7 @@ let resumeData = {
   "role": "Full Stack Developer",
   "linkedinId":"https://www.linkedin.com/in/emitdelarosa/",
   "skypeid": "emitdlr",
-  "roleDescription": "Designer",
+  "roleDescription": "Software Engineer",
   "socialLinks":[
       {
         "name":"linkedin",
