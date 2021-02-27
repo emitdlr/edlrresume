@@ -380,9 +380,6 @@ dd { margin: 0 0 0 20px; }
    background-color: #E6E8EB;
 	color: #A9ADB2;
 }
-.pagination .prev, .pagination .next {}
-
-
 
 img {
    max-width: 100%;
