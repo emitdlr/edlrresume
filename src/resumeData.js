@@ -117,34 +117,27 @@ let resumeData = {
     {
       "name":"Crystals of Thanos",
       "description":"Simple numbers guessing game using javascript",
+      "url": "./public/Infinity Crystals/index.html",
       "imgurl":"images/portfolio/crystals.jpg"
     },
     {
-      "name":"project2",
-      "description":"Updating Soon",
-      "imgurl":"images/portfolio/project.jpg"
+      "name":"Fish Store Menu",
+      "description":"React App using Firebase for database and sign-in authentication",
+      "url":"https://epic-einstein-345930.netlify.app/",
+      "imgurl":"images/portfolio/Fish.PNG"
     },
     {
-      "name":"project3",
-      "description":"mobileapp",
-      "imgurl":"images/portfolio/project2.png"
+      "name":"FramedinAustin website",
+      "description":"Framed in Austin - my photography site coded in HTML/CSS/JavaScript",
+      "url":"https://www.framedinaustin.com/",
+      "imgurl":"images/portfolio/FiA.png"
     },
-    {
-      "name":"project4",
-      "description":"Updating Soon",
-      "imgurl":"images/portfolio/phone.jpg"
-    }
+    // {
+    //   "name":"project4",
+    //   "description":"Updating Soon",
+    //   "imgurl":"images/portfolio/phone.jpg"
+    // }
   ],
-  // "testimonials":[
-  //   {
-  //     "description":"This is a sample testimonial",
-  //     "name":"Some technical guy"
-  //   },
-  //   {
-  //     "description":"This is a sample testimonial",
-  //     "name":"Some technical guy"
-  //   }
-  // ]
 }
 
 export default resumeData
