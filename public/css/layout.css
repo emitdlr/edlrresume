@@ -59,14 +59,14 @@ header .banner {
 header .banner-text { width: 100%; }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #df7a08;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h2 {
    font: 20px 'librebaskerville-regular', serif;
-   color: rgb(253, 251, 251);
+   color: #df7a08;
    letter-spacing: 10px;
    margin: 0 auto;
    width: 70%;
@@ -104,7 +104,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #df7a08; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -126,7 +126,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #df7a08; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
