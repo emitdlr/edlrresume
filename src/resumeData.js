@@ -117,7 +117,7 @@ let resumeData = {
     {
       "name":"Crystals of Thanos",
       "description":"Simple numbers guessing game using javascript",
-      "url": "../Infinity Crystals/index.html",
+      "url": "https://elastic-noether-121782.netlify.app/",
       "imgurl":"images/portfolio/crystals.jpg"
     },
     {
