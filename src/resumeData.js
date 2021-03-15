@@ -118,19 +118,25 @@ let resumeData = {
       "name":"Crystals of Thanos",
       "description":"Simple numbers guessing game using javascript",
       "url": "https://elastic-noether-121782.netlify.app/",
-      "imgurl":"images/portfolio/crystals.jpg"
+      "imgurl":"images/portfolio/crystals.jpg",
+      "purl":"https://github.com/emitdlr/Infinity-Crystals-game",
+      "className":"fa fa-github"
     },
     {
       "name":"Fish Store Menu",
       "description":"React App using Firebase for database and sign-in authentication",
       "url":"https://epic-einstein-345930.netlify.app/",
-      "imgurl":"images/portfolio/Fish.PNG"
+      "imgurl":"images/portfolio/Fish.PNG",
+      "purl":"https://github.com/emitdlr/FishMenu",
+      "className":"fa fa-github"
     },
     {
       "name":"FramedinAustin website",
       "description":"Framed in Austin - my photography site coded in HTML/CSS/JavaScript",
       "url":"https://www.framedinaustin.com/",
-      "imgurl":"images/portfolio/FiA.png"
+      "imgurl":"images/portfolio/FiA.png",
+      "purl":"https://github.com/emitdlr/framedinaustin",
+      "className":"fa fa-github"
     },
     // {
     //   "name":"project4",

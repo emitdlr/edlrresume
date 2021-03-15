@@ -19,6 +19,7 @@ export default class Porfolio extends Component {
                         <div className="portfolio-item-meta">
                           <h2>{item.name}</h2>
                           <h5>{item.description}</h5>
+                          <h3><a href= {item.purl} target="_blank" rel="noopener noreferrer"> <i className={item.className}></i></a></h3>
                         </div>
                       </div>
                     </a>
