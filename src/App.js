@@ -6,6 +6,7 @@ import Portfolio from './components/portfolio/portfolio';
 import ContactUs from './components/contactus/contactus';
 import Footer from './components/footer/footer';
 import resumeData from './resumeData';
+import axios from 'axios';
 class App extends Component {
   render() {
     return (
