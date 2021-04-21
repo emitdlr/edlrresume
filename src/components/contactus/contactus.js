@@ -12,9 +12,10 @@ export default class ContactUs extends Component {
             </div>
           </div>
           <div className="row">
-            <aside className="eight columns footer-widgets">
-              <div className="widget center">
-                <h1>Contact Me</h1>
+            <aside className="six columns footer-widgets">
+              <div className="widget">
+                <h1>Email Me at:</h1>
+                <p>emit@utexas.edu</p>
               </div>
             </aside>
           </div>

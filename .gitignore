@@ -67,3 +67,6 @@ typings/
 
 # Local Netlify folder
 .netlify
+
+# firebase
+.env
