@@ -116,7 +116,7 @@ let resumeData = {
   "portfolio":[
     {
       "name":"Crystals of Thanos",
-      "description":"Simple numbers guessing game using javascript",
+      "description":"Simple numbers guessing game using javascript. This was the first little project I coded to show what js can do.",
       "url": "https://elastic-noether-121782.netlify.app/",
       "imgurl":"images/portfolio/crystals.jpg",
       "purl":"https://github.com/emitdlr/Infinity-Crystals-game",
@@ -132,7 +132,7 @@ let resumeData = {
     },
     {
       "name":"FramedinAustin website",
-      "description":"Framed in Austin - my photography site coded in HTML/CSS/JavaScript",
+      "description":"Framed in Austin - my photography site coded in HTML/CSS/JavaScript with some Bootstrap",
       "url":"https://www.framedinaustin.com/",
       "imgurl":"images/portfolio/FiA.png",
       "purl":"https://github.com/emitdlr/framedinaustin",
