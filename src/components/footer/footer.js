@@ -20,7 +20,7 @@ export default class Footer extends Component {
             }
           </ul>
           <ul className="copyright">
-            <li>© 2021 Emit De La Rosa</li>
+            <li>© 2022 Emit De La Rosa</li>
           </ul>
         </div>
         <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
