@@ -21,7 +21,7 @@ let resumeData = {
         "className":"fa fa-skype"
       }
     ],
-  "aboutme":"B.A graduate from the University of Texas at Austin in Liberal Arts. After 15 years in Finance, I have changed careers and now am a Full Stack Developer and studying cybersecurity.",
+  "aboutme":"B.A graduate from the University of Texas at Austin in Liberal Arts. After 15 years in Finance, I have changed careers and now am a Full Stack Developer, working with AI, and studying cybersecurity.",
   "address":"Austin, Texas",
   "website1":"http://www.emitdelarosa.com",
   "website2":"http://www.framedinaustin.com",
@@ -44,7 +44,7 @@ let resumeData = {
   "work":[
     {
       "CompanyName":"HCL Technologies",
-      "specialization":"Senior Software Developer (Technical Solutions Consultant at Google: Google Cloud (GCP) Document AI)",
+      "specialization":"Senior Software Developer (Technical Solutions Consultant at Google Cloud (GCP) Document AI)",
       "MonthOfStarting": "July",
       "YearOfStarting":"2021",
       "YearOfLeaving":"Present",
