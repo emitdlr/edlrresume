@@ -48,7 +48,7 @@ let resumeData = {
       "MonthOfStarting": "July",
       "YearOfStarting":"2021",
       "YearOfLeaving":"Present",
-      "Achievements":"Technical Solutions Consultant at Google: Google Cloud (GCP) Document AI"
+      "Achievements":"Technical Solutions Consultant at Google: Google Cloud (GCP) Document AI: Python"
     },
     {
       "CompanyName":"SolarWinds",
