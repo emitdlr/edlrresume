@@ -43,6 +43,13 @@ let resumeData = {
   ],
   "work":[
     {
+      "CompanyName":"HCL Technologies",
+      "specialization":"Senior Software Developer",
+      "MonthOfStarting": "July",
+      "YearOfStarting":"2021 - Present",
+      "Achievements":"Technical Solutions Consultant at Google: Google Cloud (GCP) Document AI"
+    },
+    {
       "CompanyName":"SolarWinds",
       "specialization":"Software Developer",
       "MonthOfStarting": "July",
