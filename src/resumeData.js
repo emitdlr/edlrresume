@@ -60,8 +60,8 @@ let resumeData = {
       "Achievements":"Technologies Used: Angular 9/Nova UI/Kubernetes/Jira/Confluence"
     },
     {
-      "CompanyName":"TCS Partners",
-      "specialization":"Web Developer - Contract",
+      "CompanyName":"TCS Partners (Contract)",
+      "specialization":"Web Developer",
       "MonthOfStarting": "October",
       "YearOfStarting":"2019",
       "MonthOfLeaving":"December",
@@ -69,7 +69,7 @@ let resumeData = {
       "Achievements":"Technologies Used: WordPress/PHP customization/CSS customization"
     },
     {
-      "CompanyName":"RentLoop (Remote)",
+      "CompanyName":"RentLoop (Contract)",
       "specialization":"Full Stack Developer",
       "MonthOfStarting": "March",
       "YearOfStarting":"2019",
